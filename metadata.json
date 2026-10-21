@@ -1,0 +1,6 @@
+{
+  "name": "Plants - AI Crop Doctor & Krishi Advisor",
+  "description": "Plantix-style AI crop disease doctor, real medicine prescriptions, per-acre dosage calculations, and camera scanner for farmers.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

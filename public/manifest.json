@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "Plants - AI Crop Doctor",
+  "short_name": "Plants",
+  "description": "AI-powered crop doctor, plant disease diagnosis, fertilizer calculator, and agricultural advisory.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#064e3b",
+  "theme_color": "#064e3b",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

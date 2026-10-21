@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background with safe zone -->
+  <rect width="512" height="512" rx="110" fill="url(#grad)" />
+  
+  <!-- Subtle circular scanner grid -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="4" stroke-dasharray="8 8" />
+  
+  <!-- Corner Scanner Markers -->
+  <path d="M 120 170 L 120 120 L 170 120" fill="none" stroke="#fcd34d" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 342 120 L 392 120 L 392 170" fill="none" stroke="#fcd34d" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 120 342 L 120 392 L 170 392" fill="none" stroke="#fcd34d" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 342 392 L 392 392 L 392 342" fill="none" stroke="#fcd34d" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Leaf Artwork in center -->
+  <g filter="url(#shadow)">
+    <!-- Main leaf body -->
+    <path d="M256 120 C 340 120, 390 190, 390 270 C 390 350, 310 390, 256 400 C 202 390, 122 350, 122 270 C 122 190, 172 120, 256 120 Z" fill="#ffffff" />
+    <path d="M256 135 C 330 135, 375 198, 375 270 C 375 338, 305 376, 256 385 C 207 376, 137 338, 137 270 C 137 198, 182 135, 256 135 Z" fill="#ecfdf5" />
+    
+    <!-- Central leaf vein -->
+    <path d="M256 150 L 256 385" stroke="#10b981" stroke-width="8" stroke-linecap="round" />
+    <!-- Secondary veins -->
+    <path d="M256 220 C 285 205, 315 210, 335 225" fill="none" stroke="#10b981" stroke-width="6" stroke-linecap="round" />
+    <path d="M256 220 C 227 205, 197 210, 177 225" fill="none" stroke="#10b981" stroke-width="6" stroke-linecap="round" />
+    
+    <path d="M256 270 C 290 255, 320 260, 340 280" fill="none" stroke="#10b981" stroke-width="6" stroke-linecap="round" />
+    <path d="M256 270 C 222 255, 192 260, 172 280" fill="none" stroke="#10b981" stroke-width="6" stroke-linecap="round" />
+
+    <path d="M256 320 C 285 310, 310 320, 330 335" fill="none" stroke="#10b981" stroke-width="6" stroke-linecap="round" />
+    <path d="M256 320 C 227 310, 202 320, 182 335" fill="none" stroke="#10b981" stroke-width="6" stroke-linecap="round" />
+  </g>
+</svg>
